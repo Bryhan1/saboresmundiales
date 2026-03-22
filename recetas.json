@@ -1,0 +1,503 @@
+[
+  {
+    "nombre": "Pastel de Choclo",
+    "pais": "Chile",
+    "tipo": "almuerzo",
+    "emoji": "🌽",
+    "descripcion": "Clásico reconfortante chileno: pino de carne y pollo cubierto con una cremosa pastelera de choclo gratinada.",
+    "tiempo": "90 min",
+    "dificultad": "Media",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "1 kg de choclo pastelero molido",
+      "1 taza de leche",
+      "Albahaca fresca",
+      "500g de carne de vacuno picada",
+      "3 cebollas grandes",
+      "2 pechugas de pollo cocidas y desmenuzadas",
+      "3 huevos duros",
+      "Aceitunas negras",
+      "Pasas de uva",
+      "Azúcar para gratinar",
+      "Sal y comino"
+    ],
+    "pasos": [
+      "El Pino: Sofreír la cebolla con ajo y comino. Agregar la carne picada y cocinar hasta que los jugos se reduzcan. Dejar reposar (idealmente de un día para otro).",
+      "La Pastelera: Cocinar el choclo molido con la leche y la albahaca picada a fuego bajo, revolviendo constantemente hasta que espese y cambie de color.",
+      "En fuentes individuales de greda, colocar una base de pino de carne, pollo, un trozo de huevo duro, aceituna y pasas.",
+      "Cubrir con la crema de choclo, espolvorear azúcar encima.",
+      "Hornear a 200°C hasta gratinar y dorar la superficie."
+    ],
+    "consejo": "El secreto está en el pino del día anterior: los sabores se asientan y el resultado es mucho más sabroso."
+  },
+  {
+    "nombre": "Cazuela de Vacuno",
+    "pais": "Chile",
+    "tipo": "almuerzo",
+    "emoji": "🍲",
+    "descripcion": "Sopa contundente y reconfortante con carne, papas, zapallo y choclo. El plato familiar chileno por excelencia.",
+    "tiempo": "80 min",
+    "dificultad": "Fácil",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "1 kg de tapapecho o asado de tira",
+      "1 cebolla",
+      "1 zanahoria",
+      "Pimentón rojo",
+      "4 papas medianas",
+      "1 trozo de zapallo camote",
+      "2 choclos cortados",
+      "1/2 taza de arroz",
+      "Ajo, comino y cilantro fresco"
+    ],
+    "pasos": [
+      "Dorar la carne con ajo, cebolla en pluma, zanahoria en bastones y pimentón en una olla grande.",
+      "Cubrir con 2 litros de agua hirviendo. Cocinar a fuego bajo-medio durante 45 minutos.",
+      "Agregar las papas enteras peladas, los trozos de choclo y el zapallo camote. Cocinar 15 minutos más.",
+      "Añadir el arroz y cocinar los últimos 15 minutos hasta que las papas estén blandas.",
+      "Servir el caldo caliente con cilantro fresco picado por encima."
+    ],
+    "consejo": "Usa tapapecho para un caldo más sustancioso. El arroz lo puedes reemplazar por fideos cabello de ángel."
+  },
+  {
+    "nombre": "Charquicán",
+    "pais": "Chile",
+    "tipo": "almuerzo",
+    "emoji": "🥩",
+    "descripcion": "Guiso rústico de carne, papas y zapallo machacados, coronado con un huevo frito. Sabor de campo chileno.",
+    "tiempo": "50 min",
+    "dificultad": "Fácil",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "500g de posta de vacuno en cubos pequeños",
+      "4 papas grandes",
+      "500g de zapallo camote",
+      "1 taza de choclo desgranado",
+      "1 taza de arvejas frescas",
+      "1 cebolla en cubos",
+      "Pimentón, ajo, ají de color",
+      "Caldo de carne",
+      "Huevos (para servir)"
+    ],
+    "pasos": [
+      "Hacer un sofrito con cebolla, ajo, ají de color y pimentón. Agregar la carne y dorar.",
+      "Incorporar las papas y el zapallo cortados en cubos medianos.",
+      "Añadir una taza de caldo de carne hirviendo, tapar y cocinar hasta que las papas estén muy tiernas.",
+      "Con una cuchara de madera, machacar de forma rústica las papas y el zapallo para unir el guiso.",
+      "Agregar el choclo y las arvejas cocinando 5 minutos finales. Servir coronado con un huevo frito."
+    ],
+    "consejo": "No machaces demasiado, debe quedar rústico con trozos visibles, no como puré."
+  },
+  {
+    "nombre": "Porotos con Riendas",
+    "pais": "Chile",
+    "tipo": "almuerzo",
+    "emoji": "🫘",
+    "descripcion": "Porotos cremosos con tallarines (las riendas) y un sofrito de cebolla. Plato de invierno chileno inigualable.",
+    "tiempo": "70 min",
+    "dificultad": "Fácil",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "2 tazas de porotos viejos (remojados desde la noche anterior)",
+      "300g de zapallo camote en cubos",
+      "1 cebolla picada",
+      "1 diente de ajo",
+      "Ají de color",
+      "150g de tallarines (las riendas)",
+      "Sal y orégano"
+    ],
+    "pasos": [
+      "Cocer los porotos junto al zapallo camote en abundante agua hirviendo hasta que los porotos estén blandos.",
+      "Retirar los trozos de zapallo, molerlos con un tenedor y devolver el puré a la olla para dar cremosidad al caldo.",
+      "Preparar un sofrito con cebolla, ajo, ají de color y orégano. Verterlo a la olla de los porotos.",
+      "Agregar los tallarines partidos por la mitad y cocinar de 10 a 12 minutos hasta que la pasta esté al dente."
+    ],
+    "consejo": "Remoja los porotos desde la noche anterior. El zapallo molido es el secreto de la cremosidad del caldo."
+  },
+  {
+    "nombre": "Humitas en Olla",
+    "pais": "Chile",
+    "tipo": "almuerzo",
+    "emoji": "🌿",
+    "descripcion": "La pastelera de verano: choclo fresco con albahaca cocinado a fuego lento hasta lograr una textura sedosa y perfumada.",
+    "tiempo": "40 min",
+    "dificultad": "Fácil",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "8 choclos pasteleros rallados o molidos",
+      "1 taza de leche",
+      "1 cebolla picada fina",
+      "Manteca o aceite de maravilla",
+      "Hojas de albahaca fresca",
+      "Ají de color",
+      "Sal"
+    ],
+    "pasos": [
+      "Sofreír la cebolla en manteca junto al ají de color y la sal hasta que esté translúcida.",
+      "Agregar el choclo rallado y la albahaca fresca.",
+      "Verter la leche poco a poco mientras se revuelve para lograr una textura suave y sedosa.",
+      "Cocinar a fuego bajo revolviendo constantemente por 25 minutos hasta que la pasta espese.",
+      "Servir con ensalada chilena de tomate y cebolla."
+    ],
+    "consejo": "No dejes de revolver ni un momento o se pegará. La albahaca fresca es insustituible en esta receta."
+  },
+  {
+    "nombre": "Paila de Huevos con Marraqueta",
+    "pais": "Chile",
+    "tipo": "desayuno",
+    "emoji": "🍳",
+    "descripcion": "Huevos cocinados en greda con mantequilla. El desayuno campesino chileno más simple y delicioso.",
+    "tiempo": "10 min",
+    "dificultad": "Fácil",
+    "porciones": "1 persona",
+    "ingredientes": [
+      "2 huevos de campo",
+      "1 cucharada de mantequilla",
+      "Sal",
+      "1 pan marraqueta fresca"
+    ],
+    "pasos": [
+      "Calentar a fuego medio una paila de greda. Derretir la mantequilla.",
+      "Cascar los huevos directamente en la greda.",
+      "Para huevos revueltos, romper las yemas y mezclar suavemente con un tenedor.",
+      "Agregar sal y retirar del fuego cuando los huevos sigan húmedos — la greda retiene el calor y terminará la cocción en la mesa.",
+      "Servir con la marraqueta crujiente."
+    ],
+    "consejo": "Retira la paila del fuego antes de que los huevos estén completamente cocidos. La greda seguirá cocinándolos en la mesa."
+  },
+  {
+    "nombre": "Pan con Palta Hass",
+    "pais": "Chile",
+    "tipo": "desayuno",
+    "emoji": "🥑",
+    "descripcion": "La palta Hass madura aplastada con sal y aceite de oliva sobre pan tostado. Desayuno chileno contemporáneo y saludable.",
+    "tiempo": "5 min",
+    "dificultad": "Fácil",
+    "porciones": "1 persona",
+    "ingredientes": [
+      "1 palta Hass madura",
+      "1 pan hallulla o marraqueta",
+      "Sal marina",
+      "Aceite de oliva extra virgen"
+    ],
+    "pasos": [
+      "Retirar la pulpa de la palta y colocarla en un plato plano.",
+      "Moler la palta con un tenedor dejando textura rústica.",
+      "Condimentar con sal marina y un toque de aceite de oliva.",
+      "Tostar levemente el pan y untar una generosa capa de palta."
+    ],
+    "consejo": "La palta Hass está en su punto cuando cede suavemente al presionarla. Nunca uses palta fuerte."
+  },
+  {
+    "nombre": "Ulpo de Harina Tostada",
+    "pais": "Chile",
+    "tipo": "desayuno",
+    "emoji": "☕",
+    "descripcion": "Bebida ancestral chilena de harina tostada con miel. Energizante y reconfortante para comenzar el día.",
+    "tiempo": "5 min",
+    "dificultad": "Fácil",
+    "porciones": "1 persona",
+    "ingredientes": [
+      "4 cucharadas de harina tostada de trigo",
+      "1 taza de leche o agua caliente",
+      "2 cucharaditas de miel de abejas pura",
+      "Canela en polvo (opcional)"
+    ],
+    "pasos": [
+      "En un tazón grande de cerámica, colocar la harina tostada y la miel.",
+      "Verter el líquido caliente gradualmente mientras se bate enérgicamente con una cuchara para que no se formen grumos.",
+      "Ajustar la cantidad de líquido: más espeso como papilla o más ligero para beber.",
+      "Decorar con canela en polvo."
+    ],
+    "consejo": "Si no encuentras harina tostada en el supermercado, puedes tostar harina común en un sartén seco a fuego bajo hasta que tome color dorado."
+  },
+  {
+    "nombre": "Sándwich de Arrollado de Huaso",
+    "pais": "Chile",
+    "tipo": "desayuno",
+    "emoji": "🥖",
+    "descripcion": "El desayuno histórico de las faenas rurales: arrollado de huaso en marraqueta con tomate y ají verde.",
+    "tiempo": "5 min",
+    "dificultad": "Fácil",
+    "porciones": "1 persona",
+    "ingredientes": [
+      "1 marraqueta fresca",
+      "3 láminas gruesas de arrollado de huaso",
+      "Rodajas de tomate jugoso",
+      "Ají verde picado (opcional)"
+    ],
+    "pasos": [
+      "Abrir la marraqueta fresca (no requiere tostado).",
+      "Disponer las láminas frías o levemente entibiadas del arrollado de huaso.",
+      "Coronar con láminas de tomate fresco y ají verde al gusto."
+    ],
+    "consejo": "El arrollado de huaso debe estar frío para que las láminas se corten bien y no se deshagan al servir."
+  },
+  {
+    "nombre": "Batido de Plátano y Avena",
+    "pais": "Chile",
+    "tipo": "desayuno",
+    "emoji": "🍌",
+    "descripcion": "Batido funcional y energizante con plátano maduro y avena. Desayuno saludable listo en 2 minutos.",
+    "tiempo": "5 min",
+    "dificultad": "Fácil",
+    "porciones": "1 persona",
+    "ingredientes": [
+      "1 plátano maduro",
+      "1 taza de leche fresca o vegetal",
+      "3 cucharadas de avena en hojuelas",
+      "1 cucharadita de miel"
+    ],
+    "pasos": [
+      "Pelar y trocear el plátano.",
+      "Verter todos los ingredientes en la licuadora.",
+      "Procesar a velocidad máxima por 60 segundos hasta obtener una mezcla espumosa y sin rastros de hojuelas enteras."
+    ],
+    "consejo": "Usa plátano con manchas negras en la cáscara — es cuando está más dulce y cremoso."
+  },
+  {
+    "nombre": "Churrascas de Campo",
+    "pais": "Chile",
+    "tipo": "once",
+    "emoji": "🫓",
+    "descripcion": "Pan rústico de campo sin levadura, cocido a la parrilla. Crujiente por fuera, suave por dentro.",
+    "tiempo": "30 min",
+    "dificultad": "Fácil",
+    "porciones": "6 unidades",
+    "ingredientes": [
+      "500g de harina de trigo",
+      "1 cucharadita de sal",
+      "1 cucharadita de polvos de hornear",
+      "3 cucharadas de manteca derretida o aceite vegetal",
+      "Agua tibia"
+    ],
+    "pasos": [
+      "Mezclar ingredientes secos en un bowl. Añadir la manteca y verter el agua tibia poco a poco hasta formar una masa elástica y lisa. Amasar 5 minutos.",
+      "Hacer bollitos y aplanarlos con un uslero hasta formar discos de 1 cm de espesor. Pinchar con tenedor.",
+      "Cocinar sobre la parrilla o tostador a fuego medio durante 3-4 minutos por lado hasta que estén infladas y doradas."
+    ],
+    "consejo": "No agregues demasiada agua de una vez. La masa debe quedar suave pero no pegajosa."
+  },
+  {
+    "nombre": "Sopaipillas Pasadas en Chancaca",
+    "pais": "Chile",
+    "tipo": "once",
+    "emoji": "🍮",
+    "descripcion": "Sopaipillas de zapallo sumergidas en almíbar de chancaca con canela y naranja. La once chilena más querida.",
+    "tiempo": "45 min",
+    "dificultad": "Media",
+    "porciones": "6 personas",
+    "ingredientes": [
+      "250g de zapallo cocido y molido",
+      "2 tazas de harina",
+      "2 cucharadas de manteca derretida",
+      "Sal y aceite para freír",
+      "250g de chancaca en bloque",
+      "2 tazas de agua",
+      "Cáscaras de naranja fresca",
+      "1 rama de canela"
+    ],
+    "pasos": [
+      "Mezclar el zapallo, la harina, la manteca y la sal. Amasar, estirar con uslero, cortar círculos y pinchar con tenedor.",
+      "Freír en aceite caliente hasta dorar. Escurrir sobre papel absorbente.",
+      "En una olla hervir el agua con la chancaca, canela y cáscara de naranja hasta que se disuelva y tome textura de almíbar ligero.",
+      "Sumergir las sopaipillas fritas en la salsa caliente por 5 a 10 minutos para que absorban el almíbar."
+    ],
+    "consejo": "El zapallo debe estar bien escurrido sin exceso de agua para que la masa no quede pegajosa."
+  },
+  {
+    "nombre": "Kuchen Sureño de Frambuesa",
+    "pais": "Chile",
+    "tipo": "once",
+    "emoji": "🫐",
+    "descripcion": "Tarta sureña de masa arenosa con frambuesas frescas y crema cuajada. La repostería de la Araucanía.",
+    "tiempo": "70 min",
+    "dificultad": "Media",
+    "porciones": "8 porciones",
+    "ingredientes": [
+      "250g de harina",
+      "125g de mantequilla fría en cubos",
+      "100g de azúcar",
+      "1 huevo (para la masa)",
+      "300g de frambuesas frescas",
+      "200ml de crema de leche espesa",
+      "2 huevos (para el relleno)",
+      "3 cucharadas de azúcar flor"
+    ],
+    "pasos": [
+      "Unir harina, mantequilla y azúcar con la punta de los dedos hasta formar arenilla. Agregar el huevo para unir la masa sin amasar demasiado.",
+      "Forrar un molde de tarta y refrigerar 15 minutos.",
+      "Disponer las frambuesas crudas sobre la masa.",
+      "Batir la crema con los dos huevos y el azúcar flor. Verter sobre las frutas.",
+      "Hornear a 180°C durante 40 minutos hasta que el relleno cuaje y los bordes estén dorados."
+    ],
+    "consejo": "No amasas en exceso la masa o quedará dura. Solo júntala hasta que forme una bola."
+  },
+  {
+    "nombre": "Pan Amasado con Arrope de Uva",
+    "pais": "Chile",
+    "tipo": "once",
+    "emoji": "🍞",
+    "descripcion": "Pan artesanal caliente bañado en arrope de uva del Norte Chico. Dulce ancestral de las chacras chilenas.",
+    "tiempo": "10 min",
+    "dificultad": "Fácil",
+    "porciones": "2 personas",
+    "ingredientes": [
+      "Pan amasado caliente recién horneado",
+      "Arrope de uva artesanal"
+    ],
+    "pasos": [
+      "Abrir el pan amasado caliente por la mitad.",
+      "Verter directamente el arrope de uva para que el pan absorba el dulzor denso y frutal del mosto concentrado."
+    ],
+    "consejo": "El arrope de uva auténtico viene del Norte Chico chileno. Si no lo encuentras, el jarabe de miel de palma es una buena alternativa."
+  },
+  {
+    "nombre": "Tostadas de Queso Chanco y Membrillo",
+    "pais": "Chile",
+    "tipo": "once",
+    "emoji": "🧀",
+    "descripcion": "Hallulla tostada con queso Chanco derretido sobre dulce de membrillo. El contraste agridulce más adictivo de la once.",
+    "tiempo": "10 min",
+    "dificultad": "Fácil",
+    "porciones": "2 personas",
+    "ingredientes": [
+      "1 pan hallulla",
+      "Láminas de queso Chanco o mantecoso artesanal",
+      "Láminas de dulce de membrillo compacto"
+    ],
+    "pasos": [
+      "Cortar la hallulla por la mitad.",
+      "Colocar una lámina de dulce de membrillo y cubrirla con una lámina gruesa de queso Chanco.",
+      "Llevar al horno eléctrico o tostador hasta que el queso se derrita cubriendo el dulce de membrillo."
+    ],
+    "consejo": "El queso Chanco artesanal de feria libre es incomparablemente mejor que el industrial para esta preparación."
+  },
+  {
+    "nombre": "Caldillo de Congrio",
+    "pais": "Chile",
+    "tipo": "cena",
+    "emoji": "🐟",
+    "descripcion": "El plato marino nacional: medallones de congrio en caldo de pescado con papas, vino blanco y cilantro.",
+    "tiempo": "70 min",
+    "dificultad": "Media",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "1 kg de congrio dorado en medallones",
+      "Cabezas y espinas para caldo base",
+      "Cebolla, pimentón, tomate maduro",
+      "Zanahoria, vino blanco chileno",
+      "Papas, ajo, cilantro y limón"
+    ],
+    "pasos": [
+      "Hervir las cabezas y espinas de pescado en 1.5 litros de agua con cebolla y zanahoria por 30 minutos. Colar el caldo.",
+      "Sofreír la cebolla, ajo, pimentón y tomate. Añadir una taza de vino blanco y reducir.",
+      "Verter el caldo de pescado y agregar las papas en gajos. Cocinar 15 minutos.",
+      "Colocar los medallones de congrio marinados con sal y limón encima de las papas.",
+      "Tapar y cocinar con vapor por 12 minutos más. Decorar con cilantro."
+    ],
+    "consejo": "Pide al pescadero que te deje las cabezas y espinas. Son el secreto del caldo. El congrio fresco es indispensable."
+  },
+  {
+    "nombre": "Congrio Frito con Batido de Cerveza",
+    "pais": "Chile",
+    "tipo": "cena",
+    "emoji": "🍺",
+    "descripcion": "Medallones de congrio en costra de cerveza fría. Crujiente por fuera, jugoso por dentro. La fritura perfecta.",
+    "tiempo": "30 min",
+    "dificultad": "Media",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "4 medallones de congrio fresco",
+      "1 taza de harina",
+      "1 cucharadita de polvos de hornear",
+      "1/2 taza de cerveza rubia muy fría",
+      "Sal, pimienta",
+      "Aceite abundante para freír"
+    ],
+    "pasos": [
+      "Secar y salpimentar los medallones de congrio.",
+      "Hacer el batido uniendo la harina, polvos de hornear y la cerveza helada hasta consistencia de pasta para panqueques espesa.",
+      "Pasar los pescados por harina seca, luego sumergir en la mezcla de cerveza.",
+      "Freír en aceite a 180°C hasta obtener una costra dorada e inflada. Servir de inmediato."
+    ],
+    "consejo": "La cerveza debe estar muy fría para que el batido quede aireado y la costra inflada. No la saques del refrigerador hasta el momento de usarla."
+  },
+  {
+    "nombre": "Pollo Arvejado de Olla",
+    "pais": "Chile",
+    "tipo": "cena",
+    "emoji": "🍗",
+    "descripcion": "Pollo a la olla con arvejas frescas, zanahoria y vino blanco. Clásico reconfortante de las cenas familiares chilenas.",
+    "tiempo": "50 min",
+    "dificultad": "Fácil",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "4 presas de pollo",
+      "1 taza de arvejas frescas",
+      "1 zanahoria en rodajas",
+      "1 cebolla picada fina",
+      "Ajo",
+      "1/2 taza de vino blanco",
+      "Caldo de pollo caliente"
+    ],
+    "pasos": [
+      "Sellar las presas de pollo en una olla con aceite caliente hasta que la piel esté dorada. Retirar.",
+      "En la misma grasa, preparar el sofrito con cebolla, ajo y zanahoria.",
+      "Regresar el pollo, verter el vino blanco y dejar reducir el alcohol por 3 minutos.",
+      "Añadir una taza de caldo de pollo y cocinar a fuego lento con tapa por 20 minutos.",
+      "Cinco minutos antes de apagar, agregar las arvejas. Servir con arroz blanco o papas fritas en cubos."
+    ],
+    "consejo": "Dorar bien el pollo antes es fundamental. Esa costra dorada es la base del sabor de toda la salsa."
+  },
+  {
+    "nombre": "Chorrillana Porteña",
+    "pais": "Chile",
+    "tipo": "cena",
+    "emoji": "🍟",
+    "descripcion": "El plato porteño de Valparaíso: papas fritas con carne en tiras, cebolla caramelizada y huevos fritos encima.",
+    "tiempo": "40 min",
+    "dificultad": "Media",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "500g de papas en bastón fritas",
+      "400g de posta o lomo liso en tiras",
+      "2 cebollas grandes en pluma larga",
+      "3 huevos frescos",
+      "Sal y pimienta"
+    ],
+    "pasos": [
+      "Freír las papas en abundante aceite hasta que queden crujientes. Escurrir, salar y colocar de base en un plato colectivo.",
+      "Sofreír la cebolla pluma a fuego bajo hasta que esté muy caramelizada y melosa. Reservar.",
+      "A fuego muy vivo, saltear las tiras de carne rápidamente para que doren por fuera y queden jugosas por dentro.",
+      "Montar la carne sobre las papas y cubrir con la cebolla caramelizada.",
+      "Freír los huevos y colocarlos en la cima del plato."
+    ],
+    "consejo": "La chorrillana es un plato para compartir. Sírvela en el centro de la mesa para que todos se sirvan."
+  },
+  {
+    "nombre": "Reineta a la Plancha con Mantequilla de Alcaparras",
+    "pais": "Chile",
+    "tipo": "cena",
+    "emoji": "🐠",
+    "descripcion": "Filetes de reineta sellados a la plancha con una salsa de mantequilla, alcaparras y limón. Elegante y sencillo.",
+    "tiempo": "20 min",
+    "dificultad": "Fácil",
+    "porciones": "4 personas",
+    "ingredientes": [
+      "4 filetes de reineta fresca",
+      "2 cucharadas de mantequilla pura",
+      "2 cucharadas de alcaparras encurtidas lavadas",
+      "Jugo de 1 limón",
+      "Ajo picado",
+      "Aceite de oliva",
+      "Sal y pimienta"
+    ],
+    "pasos": [
+      "Sellar los filetes de reineta a la plancha caliente con aceite de oliva por ambos lados (3-4 minutos por lado). Salpimentar. Reservar en el plato.",
+      "En un sartén pequeño derretir la mantequilla, agregar el ajo picado muy fino y las alcaparras escurridas. Saltear 60 segundos.",
+      "Apagar el fuego con el jugo de limón y verter esta salsa brillante sobre los filetes calientes."
+    ],
+    "consejo": "La plancha debe estar muy caliente antes de poner el pescado para que selle bien y no se pegue."
+  }
+]

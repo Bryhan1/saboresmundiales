@@ -382,13 +382,13 @@ footer strong { color:var(--cream); font-family:var(--serif); }
 <div class="toast" id="toast"></div>
 
 <footer>
-  <strong>Sabores Mundiales</strong> — Recetas del mundo para tu cocina · Powered by IA<br>
-  <small style="margin-top:6px;display:block;">© 2026 Bryhan Nicolás Ibañez Cárdenas. Todos los derechos reservados.</small>
+  <strong>Sabores Mundiales</strong> — Recetas del mundo para tu cocina
+  
 </footer>
 
 <script>
 /* CONFIGURACIÓN */
-var ANTHROPIC_API_KEY = 'TU_API_KEY_AQUI';
+
 var GOOGLE_CLIENT_ID  = '215105159905-tletqb7ld8v624kcpqo0fvmc4ku5ohro.apps.googleusercontent.com';
 
 var PAISES_FLAGS = {'Chile':'🇨🇱','México':'🇲🇽','Argentina':'🇦🇷','Perú':'🇵🇪','Colombia':'🇨🇴','España':'🇪🇸','Italia':'🇮🇹','Francia':'🇫🇷','Japón':'🇯🇵','China':'🇨🇳','India':'🇮🇳','Tailandia':'🇹🇭','Estados Unidos':'🇺🇸','Brasil':'🇧🇷','Marruecos':'🇲🇦','Grecia':'🇬🇷'};
@@ -571,44 +571,57 @@ function filtrarPais(el, pais) {
 
 function cargarRecetasIniciales() {
   mostrarLoading(true);
-  pedirRecetas('recetas populares variadas del mundo', '', '').then(function(r) {
-    recetasActuales = r; renderRecetas(r); mostrarLoading(false);
-  }).catch(function() { mostrarError(); mostrarLoading(false); });
+  fetch('recetas.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      recetasActuales = data;
+      renderRecetas(data);
+      mostrarLoading(false);
+    })
+    .catch(function() { mostrarError(); mostrarLoading(false); });
 }
 
 function buscarRecetas() {
-  var query = document.getElementById('search-input').value.trim();
+  var query = document.getElementById('search-input').value.trim().toLowerCase();
   var pais = document.getElementById('filter-pais').value;
-  mostrarLoading(true);
-  document.getElementById('recipe-grid').innerHTML = '';
-  document.getElementById('empty-state').classList.remove('visible');
   var titulo = query || 'Recetas';
   if (pais) titulo += ' de ' + pais;
   if (selectedMeal) titulo += ' · ' + selectedMeal.charAt(0).toUpperCase() + selectedMeal.slice(1);
   document.getElementById('section-title').textContent = titulo;
-  pedirRecetas(query||'recetas variadas', pais, selectedMeal).then(function(r) {
-    recetasActuales = r; renderRecetas(r); mostrarLoading(false);
-  }).catch(function() { mostrarError(); mostrarLoading(false); });
+
+  var filtradas = recetasActuales.filter(function(r) {
+    var matchQuery = !query ||
+      r.nombre.toLowerCase().includes(query) ||
+      r.descripcion.toLowerCase().includes(query) ||
+      (r.ingredientes && r.ingredientes.some(function(ing) { return ing.toLowerCase().includes(query); }));
+    var matchPais = !pais || r.pais === pais;
+    var matchMeal = !selectedMeal || r.tipo === selectedMeal;
+    return matchQuery && matchPais && matchMeal;
+  });
+
+  document.getElementById('recipe-grid').innerHTML = '';
+  document.getElementById('empty-state').classList.remove('visible');
+  document.getElementById('result-count').textContent = filtradas.length > 0 ? filtradas.length + ' recetas encontradas' : '';
+  if (filtradas.length === 0) { document.getElementById('empty-state').classList.add('visible'); return; }
+  renderRecetasDirectas(filtradas);
 }
 
-function pedirRecetas(query, pais, tipoComida) {
-  if (ANTHROPIC_API_KEY === 'TU_API_KEY_AQUI') { showToast('⚠️ Agrega tu API Key de Anthropic'); return Promise.reject('Sin key'); }
-  var prompt = 'Genera exactamente 9 recetas de comida en formato JSON.';
-  if (query && query !== 'recetas variadas' && query !== 'recetas populares variadas del mundo') prompt += ' Relacionadas con: "' + query + '".';
-  if (pais) prompt += ' Todas deben ser de ' + pais + '.';
-  if (tipoComida) prompt += ' Todas deben ser para ' + tipoComida + '.';
-  if (!pais) prompt += ' Incluye recetas de distintos países: Chile, México, Italia, Japón, India, España, Perú, Argentina, Francia, Brasil, etc.';
-  if (!tipoComida) prompt += ' Incluye recetas de distintos tipos: desayuno, almuerzo, cena y once.';
-  prompt += '\n\nResponde SOLO con un JSON array sin texto adicional ni markdown:\n[{"nombre":"...","pais":"...","tipo":"desayuno|almuerzo|cena|once","emoji":"...","descripcion":"...","tiempo":"30 min","dificultad":"Fácil|Media|Difícil","porciones":"4 personas","ingredientes":["..."],"pasos":["..."],"consejo":"..."}]';
-  return fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'x-api-key': ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
-    body: JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 4000, messages: [{ role: 'user', content: prompt }] })
-  }).then(function(r) { return r.json(); }).then(function(data) {
-    var texto = '';
-    for (var i = 0; i < data.content.length; i++) texto += data.content[i].text || '';
-    return JSON.parse(texto.replace(/```json|```/g,'').trim());
-  });
+function renderRecetasDirectas(filtradas) {
+  var grid = document.getElementById('recipe-grid');
+  grid.innerHTML = '';
+  for (var i = 0; i < filtradas.length; i++) {
+    (function(r) {
+      var saved = isRecipeSaved(r);
+      var card = document.createElement('div');
+      card.className = 'recipe-card';
+      card.innerHTML = '<button class="card-save-btn"><span style="color:' + (saved?'var(--terracotta)':'#ccc') + '">' + (saved?'❤️':'🤍') + '</span></button>' +
+        '<div class="card-image"><div class="card-image-bg"></div><span style="position:relative;z-index:1;font-size:3.5rem">' + (r.emoji||'🍽️') + '</span><span class="card-meal-badge badge-' + r.tipo + '">' + labelTipo(r.tipo) + '</span></div>' +
+        '<div class="card-body"><div class="card-country-label">' + (PAISES_FLAGS[r.pais]||'🌍') + ' ' + r.pais + '</div><h3 class="card-title">' + r.nombre + '</h3><p class="card-desc">' + r.descripcion + '</p><div class="card-meta"><span>⏱️ ' + r.tiempo + '</span><span>👥 ' + r.porciones + '</span><span>⭐ ' + r.dificultad + '</span></div></div>';
+      card.querySelector('.card-save-btn').onclick = function(e) { e.stopPropagation(); toggleSaveRecipe(r); };
+      card.onclick = function() { abrirModal(r); };
+      grid.appendChild(card);
+    })(filtradas[i]);
+  }
 }
 
 function renderRecetas(recetas) {
