@@ -237,7 +237,7 @@
     "nombre": "Batido de Plátano y Avena",
     "pais": "Chile",
     "tipo": "desayuno",
-    "imagen": "imagenes/batido de platano con avena.jpg",
+    "emoji": "🍌",
     "descripcion": "Batido funcional y energizante con plátano maduro y avena. Desayuno saludable listo en 2 minutos.",
     "tiempo": "5 min",
     "dificultad": "Fácil",
@@ -253,7 +253,8 @@
       "Verter todos los ingredientes en la licuadora.",
       "Procesar a velocidad máxima por 60 segundos hasta obtener una mezcla espumosa y sin rastros de hojuelas enteras."
     ],
-    "consejo": "Usa plátano con manchas negras en la cáscara — es cuando está más dulce y cremoso."
+    "consejo": "Usa plátano con manchas negras en la cáscara — es cuando está más dulce y cremoso.",
+    "imagen": "imagenes/batido-platano-avena.jpg"
   },
   {
     "nombre": "Churrascas de Campo",
